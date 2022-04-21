@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+body{
+    justify-content: center;
+    background-color: #A39B8B;
+    text-align: center;
+    flex-wrap: center;
+}
+.main-header {
+    background-color: #5DB7DE;
+}
+h1{
+    font-size: 5em;
+    color: #07020D;
+    text-align: center;
+    font-family: 'My Soul', cursive;
+    float: left;
+}
+.main-img{
+    
+}
+h2{
+    font-family: 'My Soul', cursive;
+    font-size: auto;
+}
+ul{
+    background-color: #F1E9DB;
+    color: #5DB7DE;
+}
