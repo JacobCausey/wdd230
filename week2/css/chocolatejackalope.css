@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,10 +25,8 @@ h1{
     font-family: 'My Soul', cursive;
     float: left;
 }
-.main-img{
-    border-radius: .85em;
-    float: right;
-    margin: 10px;
+img {
+    
 }
 h2{
     font-family: 'My Soul', cursive;
