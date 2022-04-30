@@ -26,8 +26,10 @@ h1{
     float: left;
 }
 img {
-    
+    height: 480px;
+    width: 160px;
 }
+
 h2{
     font-family: 'My Soul', cursive;
     font-size: 2.5em;
@@ -38,6 +40,10 @@ ul{
     list-style-type: none;
     font-family: cursive;
     border-radius: 1.5em;
+}a{
+    color: #8F0A15;
+    font-family: cursive;
+    font-size: 30px;
 }
 a{
     color: #8F0A15;
