@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Playfair+Display&display=swap');
+@media only screen and (min-width: 800px ) and (max-width: 3670px) {
+    body{
+        font-size: 1.25em;
+        padding: 1.4rem;
+        background-color: #A39B8B;
+        line-height: 1rem;
+    }
+    header,footer,a {
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: #3D5A80;
+        background-color: #EE6C4D;
+        padding: 2em;
+        border-radius: 1.25em;
+    }
+        
+    ul,li {
+        color: rgb(53, 50, 50);
+        text-align: left;
+        font-family: sans-serif;
+        line-height: 1.5em;
+    }
+    
+    h1 {
+        font-family: 'Cinzel', serif;
+        text-align: left;
+        color: #3D5A80;
+        padding: .25em;
+    }
+    h2 {
+        font-family: 'Cinzel', serif;
+        text-align: left;
+        color: #3D5A80;
+        padding: .25em;
+    }
+    h3 {
+        color: #EE6C4D;
+        text-align: left;
+        font-family: 'Cinzel', serif;
+    }
+    p {
+        font-family: 'Playfair Display', serif;
+        color: rgb(53, 50, 50);
+        text-align: justify;
+        font-size: 1.26em;
+        line-height: 1.4em;
+    }
+    img{
+        width: 10%;
+    }
+    
+    .colors {
+        outline: rgb(71, 70, 70);
+        outline-width: 1rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .primary {
+        color: #3D5A80;
+        background-color: #E0FBFC;
+        padding: 1em;
+    }
+    .secondary {
+        background-color: #98C1D9; 
+        padding: 1em;     
+    }
+    .accent1 {
+        background-color: #E0FBFC;
+        padding: 1em;
+    }
+    .accent2 {
+        background-color: #EE6C4D;
+        padding: 1em;
+    }
+    #coloredparagraph {
+        background-color: #EE6C4D;
+        padding: 1.75em;
+        border-radius: 1.25em;
+    }
+    #currentdate {
+        text-align: center;
+        color: #3D5A80;
+        
+    }
+    #headerh1{
+        text-align: center;
+    }
+    #headerh2{
+        text-align: center;
+    }
+    }
+    @media only screen and (min-width: 400px ) and (max-width: 800px) {
+        body{
+            font-size: 1.25em;
+            padding: 1.4rem;
+            background-color: #A39B8B;
+            line-height: 1rem;
+        }
+        header,footer,a {
+            text-align: left;
+            font-family: 'Cinzel', serif;
+            color: #3D5A80;
+            background-color: #EE6C4D;
+            padding: 1em;
+            border-radius: 1.25em;
+            line-height: 2em;
+        }
+            
+        ul,li {
+            color: rgb(53, 50, 50);
+            text-align: left;
+            font-family: 'Playfair Display', serif;
+            line-height: 1.5em;
+        }
+        
+        h1 {
+            font-family: 'Cinzel', serif;
+            text-align: left;
+            color: #3D5A80;
+            padding: .25em;
+        }
+        h2 {
+            font-family: 'Cinzel', serif;
+            text-align: left;
+            color: #3D5A80;
+            padding: .25em;
+        }
+        h3 {
+            color: #EE6C4D;
+            text-align: left;
+            font-family: 'Cinzel', serif;
+        }
+        p {
+            font-family: 'Playfair Display', serif;
+            color: rgb(53, 50, 50);
+            text-align: justify;
+            font-size: 1.26em;
+            line-height: 1.4em;
+        }
+        img{
+            width: 30%;
+        }
+        
+        .colors {
+            outline: rgb(71, 70, 70);
+            outline-width: 1rem;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        .primary {
+            color: #3D5A80;
+            background-color: #E0FBFC;
+            padding: 1em;
+        }
+        .secondary {
+            background-color: #98C1D9; 
+            padding: 1em;     
+        }
+        .accent1 {
+            background-color: #E0FBFC;
+            padding: 1em;
+        }
+        .accent2 {
+            background-color: #EE6C4D;
+            padding: 1em;
+        }
+        #coloredparagraph {
+            background-color: #EE6C4D;
+            padding: 1.75em;
+            border-radius: 1.25em;
+        }
+        #currentdate {
+            text-align: center;
+            color: #3D5A80;
+            
+        }
+        #headerh1{
+            text-align: center;
+        }
+        #headerh2{
+            text-align: center;
+        }
+        }
+        @media only screen and (min-width: 10px ) and (max-width: 400px) {
+            body{
+                font-size: 1.25em;
+                padding: 1.4rem;
+                background-color: #A39B8B;
+                line-height: 1rem;
+                display: block;
+            }
+            header,footer,a {
+                text-align: left;
+                font-family: 'Cinzel', serif;
+                color: #07020D;
+                background-color: #5DB7DE;
+                padding: .5em;
+                border-radius: 1.25em;
+                line-height: 3em;
+            }
+                
+            ul,li {
+                color: #8F0A15;
+                text-align: left;
+                font-family: 'Playfair Display', serif;
+                line-height: 1.5em;
+            }
+            
+            h1 {
+                font-family: 'Cinzel', serif;
+                text-align: left;
+                color: #07020D;
+                padding: .25em;
+                line-height: .4em;
+            }
+            h2 {
+                font-family: 'Cinzel', serif;
+                text-align: left;
+                color: #07020D;
+                padding: .25em;
+                line-height: .4em;
+            }
+            h3 {
+                color: #8F0A15;
+                text-align: left;
+                font-family: 'Cinzel', serif;
+                line-height: .4em;
+            }
+            p {
+                font-family: 'Playfair Display', serif;
+                color: #07020D;
+                text-align: justify;
+                font-size: 1.26em;
+                line-height: 1.4em;
+            }
+            img{
+                width: 10%;
+            }
+            
+            .colors {
+                outline: #07020D;
+                outline-width: 1rem;
+                display: grid;
+                grid-template-rows: 1fr;
+            }
+            .primary {
+                color: #A39B8B;
+                background-color: #E0FBFC;
+                padding: 1em;
+            }
+            .secondary {
+                background-color: #5DB7DE; 
+                padding: 1em;     
+            }
+            .accent1 {
+                background-color: #8F0A15;
+                padding: 1em;
+            }
+            .accent2 {
+                background-color: #07020D;
+                padding: 1em;
+                color: #FFFFFF;
+            }
+            #coloredparagraph {
+                background-color: #5DB7DE;
+                padding: 1.75em;
+                border-radius: 1.25em;
+            }
+            }
+    
