@@ -9,14 +9,14 @@
     header,footer,a {
         text-align: center;
         font-family: 'Cinzel', serif;
-        color: #3D5A80;
-        background-color: #EE6C4D;
+        color: #07020D;
+        background-color: #5DB7DE;
         padding: 2em;
         border-radius: 1.25em;
     }
         
     ul,li {
-        color: rgb(53, 50, 50);
+        color: #07020D;
         text-align: left;
         font-family: sans-serif;
         line-height: 1.5em;
@@ -25,23 +25,25 @@
     h1 {
         font-family: 'Cinzel', serif;
         text-align: left;
-        color: #3D5A80;
+        color: #07020D;
         padding: .25em;
+        font-size: justify;
     }
     h2 {
         font-family: 'Cinzel', serif;
         text-align: left;
-        color: #3D5A80;
-        padding: .25em;
+        color: #07020D;
+        padding: .55em;
+        line-height: 1.5em;
     }
     h3 {
-        color: #EE6C4D;
+        color: #8F0A15;
         text-align: left;
         font-family: 'Cinzel', serif;
     }
     p {
         font-family: 'Playfair Display', serif;
-        color: rgb(53, 50, 50);
+        color: #07020D;
         text-align: justify;
         font-size: 1.26em;
         line-height: 1.4em;
@@ -51,36 +53,37 @@
     }
     
     .colors {
-        outline: rgb(71, 70, 70);
+        outline: #07020D;
         outline-width: 1rem;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: .5em;
     }
     .primary {
         color: #3D5A80;
-        background-color: #E0FBFC;
+        background-color: #A39B8B;
         padding: 1em;
     }
     .secondary {
-        background-color: #98C1D9; 
+        background-color: #5DB7DE; 
         padding: 1em;     
     }
     .accent1 {
-        background-color: #E0FBFC;
+        background-color: #07020D;
         padding: 1em;
     }
     .accent2 {
-        background-color: #EE6C4D;
+        background-color: #8F0A15;
         padding: 1em;
     }
     #coloredparagraph {
-        background-color: #EE6C4D;
+        background-color: #5DB7DE;
         padding: 1.75em;
         border-radius: 1.25em;
     }
     #currentdate {
         text-align: center;
-        color: #3D5A80;
+        color: #07020D;
         
     }
     #headerh1{
@@ -100,15 +103,15 @@
         header,footer,a {
             text-align: left;
             font-family: 'Cinzel', serif;
-            color: #3D5A80;
-            background-color: #EE6C4D;
+            color: #07020D;
+            background-color: #5DB7DE;
             padding: 1em;
             border-radius: 1.25em;
             line-height: 2em;
         }
             
         ul,li {
-            color: rgb(53, 50, 50);
+            color: #07020D;
             text-align: left;
             font-family: 'Playfair Display', serif;
             line-height: 1.5em;
@@ -117,23 +120,25 @@
         h1 {
             font-family: 'Cinzel', serif;
             text-align: left;
-            color: #3D5A80;
+            color: #07020D;
             padding: .25em;
         }
         h2 {
             font-family: 'Cinzel', serif;
             text-align: left;
-            color: #3D5A80;
+            color: #07020D;
             padding: .25em;
+            font-size: 2em;
+            line-height: 1.5em;
         }
         h3 {
-            color: #EE6C4D;
+            color: #8F0A15;
             text-align: left;
             font-family: 'Cinzel', serif;
         }
         p {
             font-family: 'Playfair Display', serif;
-            color: rgb(53, 50, 50);
+            color: #07020D;
             text-align: justify;
             font-size: 1.26em;
             line-height: 1.4em;
@@ -143,14 +148,15 @@
         }
         
         .colors {
-            outline: rgb(71, 70, 70);
+            outline: #07020D;
             outline-width: 1rem;
             display: grid;
             grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: .5em;
         }
         .primary {
-            color: #3D5A80;
-            background-color: #E0FBFC;
+            color: #000000;
+            background-color: #A39B8B;
             padding: 1em;
         }
         .secondary {
@@ -158,21 +164,21 @@
             padding: 1em;     
         }
         .accent1 {
-            background-color: #E0FBFC;
+            background-color: #07020D;
             padding: 1em;
         }
         .accent2 {
-            background-color: #EE6C4D;
+            background-color: #8F0A15;
             padding: 1em;
         }
         #coloredparagraph {
-            background-color: #EE6C4D;
+            background-color: #5DB7DE;
             padding: 1.75em;
             border-radius: 1.25em;
         }
         #currentdate {
             text-align: center;
-            color: #3D5A80;
+            color: #07020D;
             
         }
         #headerh1{
@@ -219,7 +225,9 @@
                 text-align: left;
                 color: #07020D;
                 padding: .25em;
-                line-height: .4em;
+                line-height: .5em;
+                font-size: 2em;
+                line-height: 1.5em;
             }
             h3 {
                 color: #8F0A15;
@@ -243,10 +251,11 @@
                 outline-width: 1rem;
                 display: grid;
                 grid-template-rows: 1fr;
+                gap: .5em;
             }
             .primary {
                 color: #A39B8B;
-                background-color: #E0FBFC;
+                background-color: #A39B8B;
                 padding: 1em;
             }
             .secondary {
